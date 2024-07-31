@@ -21,4 +21,4 @@ RUN poetry install
 # Make port 8000 available to the world outside this container
 EXPOSE 8000
 
-CMD ["poetry", "run", "uvicorn", "app.main:todo_server","--host","0.0.0.0" ,"--port","8002","--reload"]
+CMD ["poetry", "run", "uvicorn", "quizapp.main:app","--host","0.0.0.0" ,"--port","8002","--reload"]

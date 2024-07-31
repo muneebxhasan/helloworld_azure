@@ -11,4 +11,4 @@ def read_root():
 
 app.get('/about')
 def about():
-    return {"about": "This is a hello world from azure container"}    
+    return {"about": "This is a hello world from azure containerr"}    
